@@ -14,6 +14,11 @@ Thanks to :
 - Michel I. Gallant - [http://www.jensign.com/](http://www.jensign.com/)
 - Kristof Neirynck - [http://github.com/Crydust](http://github.com/Crydust) Fixes for IE7, YUI compression, JSLINT errors
 
+### Also see:
+
+Gibberish is meant to be compatible for OpenSSL AES on the command line. There are other Javascript crypto libraries out there that may be better suite for your needs. One of the most popular and actively maintained libraries is
+[Stanford's Javascript Crypto Library](https://github.com/bitwiseshiftleft/sjcl). It supports more cipher block modes, along with authentication.
+
 
 ### Usage
         // GibberishAES.enc(string, password)
